@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> AC/DC - Contacto </title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <!-- Enlaces relativos y enlases absolutos-->
+    <!-- Enlaces relativos: nos llevan hacia algun enlace que esta dentro de nuestro proyecto-->
+    <!-- Enlaces absolutos: nos lelvan hacia algun enlace externo hacia nuestro proyecto-->
+    <header>
+        <nav>
+
+            <a href="../index.html"> Inicio </a>
+            <a href="contacto.html"> Contacto </a>
+            <a href="nosotros.html"> Nosotros </a>
+            <a href="https://www.google.com" target="_blank"> Ir a Google </a>
+
+        </nav>
+
+    </header>
+    <hr>
+    <h1>Contacto</h1>
+
+    <!-- Formularios -->
+
+    <fieldset>
+
+        <legend>Formulario de Contacto</legend>
+
+        <form action="#" method="post">
+            <div>
+                <label for="Email">
+                    Email:
+                </label>
+                <input type="email" required placeholder="ingrese email">
+            </div>
+            <div>
+                <label for="password">
+                    Contraseña:
+                </label>
+                <input type="password" name="passwor" id="password" placeholder="ingrese contraseña">
+            </div>
+            <div>
+                <label for="numero">
+                    Numero de Celular:
+                </label>
+                <input type="number" placeholder="ingrese numero">
+            </div>
+            <div>
+                <label>
+                    Marque su rango de edad:
+                </label>
+                <input type="radio" name="option">
+                <label for="radio1">
+                    Opcion 1: 18 a 25 
+                </label>
+                <input type="radio" name="option">
+                <label for="radio2">
+                    Opcion 2: 26 a 40 
+                </label>
+                <input type="radio" name="option">
+                <label for="radio3">
+                    Opcion 3: 41 a 100 
+                </label>
+            </div>
+            <div>
+                <label> 
+                    Queres ganar en Dolares?
+                </label>
+                <label for="option1">
+                    Si
+                </label>
+                <input type="checkbox">
+                <label for="option2">
+                    No
+                </label>
+                <input type="checkbox">
+            </div>
+            <div>
+                <label for="dropdown">
+                    Elegi tu smartphone:
+                </label>
+                <select>
+                    <option>
+                        Seleccione aqui ->
+                    </option>
+                    <option value="opcion1">
+                        Samsung
+                    </option>
+                    <option value="opcion2">
+                        Motorola
+                    </option>
+                    <option value="option3">
+                        Iphone
+                    </option>
+                </select>
+            </div>
+            <div>
+                <label for="file">
+                    Adjuntar Archivos:
+                </label>
+                <input type="file">
+            </div>
+            <div>
+                <label for="textarea">
+                    Escribir Comentario:
+                </label>
+                <textarea cols="30" rows="10" placeholder="Escriba Aqui"></textarea>
+            </div>
+            <button type="submit">
+                Enviar
+            </button>
+            <button type="reset" class="reset">
+                Resetear Campos
+            </button>
+
+        </form>
+
+    </fieldset>
+
+
+
+
+
+</body>
+
+</html>

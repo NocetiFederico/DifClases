@@ -1,0 +1,128 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    /* complete la pantalla */
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    /* background-color: rgba(0, 255, 21, 0.171); */
+    background-color: rgb(19, 19, 19);
+}
+
+header{
+
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h3{
+    color: rgb(0, 109, 9);;
+    font-family: 'Dancing Script', cursive;
+    font-size: 66px;
+
+}
+
+nav{
+    color:rgb(0, 0, 0);
+}
+
+nav > a{
+
+    color: black;
+    margin: 15px;
+    font-size: large;
+
+}
+
+nav > a:hover{
+
+    text-decoration: none;
+    color: rgb(0, 109, 9);
+    /* grosor de la letra */
+    font-weight: bolder;
+
+}
+
+.imagenes{
+    /* background-color: whitesmoke; */
+    background-color: rgb(19, 19, 19);
+    border-radius: 10px;
+    display: flex;
+    margin: 15px; 
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.imagenes > img{
+
+    margin: 5px;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 200px;
+    border-style:ridge;
+}
+
+.productos{
+
+    background-color: rgb(0, 71, 6);
+    padding: 8px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+}
+
+
+footer{
+    display: flex;
+    color: rgb(0, 0, 0);
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+footer > a{
+
+    background-color: greenyellow;
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+footer > a:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+footer > img{
+
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+
+}
+
+.info{
+
+    background-color: rgb(54, 71, 61);
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+
+}
+
+.info > p{
+    color: white;
+
+}

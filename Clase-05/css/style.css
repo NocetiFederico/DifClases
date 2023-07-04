@@ -1,0 +1,104 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* complete la pantalla */
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: rgb(189, 255, 233);
+}
+
+h1{
+    text-align: center;
+    background-color: aquamarine;
+    /* hacer que el color se adapte a la palabra */
+    /* display: inline-block;  */
+
+}
+
+header{
+
+    width: 100%;
+    background-color: rgb(64, 255, 191);
+    padding: 10px;
+
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav > a:hover{
+
+    text-decoration: none;
+    color: black;
+    /* grosor de la letra */
+    font-weight: bolder;
+
+}
+
+main{
+    background-color: rgb(189, 255, 233);
+}
+
+.container{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    /* cuando no entran que se pongan abajo */
+    flex-wrap: wrap;
+}
+
+.children{
+
+    background-color: rgb(64, 255, 191);
+    margin: 10px; 
+    width: 460px;
+    padding: 15px;
+    border-style: dashed;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    /* soluciona lo feo */
+    flex-direction: column;
+
+}
+
+img{
+
+    width: 300px;
+    border-radius: 10px;
+    
+}
+
+h2{
+
+    text-align: center;
+    text-align: justify;
+    font-weight: lighter;
+    margin-top: 3px;
+    margin-bottom: 3px;
+
+}
+
+footer{
+
+    background-color: rgb(64, 255, 191);
+    justify-content: space-around;
+    display: flex;
+    padding: 10px;
+    
+
+}
+
+footer > a:hover{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}

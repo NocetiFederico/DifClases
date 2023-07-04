@@ -1,0 +1,180 @@
+Clase 01
+1)Desarrollo web html y css
+2)Desarrollo web javascript
+3)Desarrollo web react
+
+*3 examenes integradores (uno por cada modulo)
+
+
+TERMINOS:
+HTML -> lenguaje de marcado.
+Jv -> lenguaje de programacion predominante en la WEB.
+	-> lenguaje de interpretado que maneja los buscadores por default.
+WWW -> da los estandares que debe tener una pagina WEB en internet. (Consorcio mundial).
+Propiedades -> sirven para asignar caracteristicas. (Cascading Style Sheet ó Hoja de Estilos en Cascada).
+
+
+HTML:
+Lenguaje de hipertexto marcado mediante etiquetas o tags. Este es interpretado por el navegador.
+-> Creacion de paginas web.
+-> Creado por Tim Berners Lee (creador del protocolo http) -> 1991.
+-> Ha tenido varias versiones, las mas importantes han sido HTML 4.01, XHTML 1.0 y la actual version HTML5 -> desde 2014.
+W3C -> World Wide Web Consortium -> creada por Tim Berners Lee -> fija estandars de lenguaje como HTML y XML.
+-> Actualmente la WHATWG tambien participa de tal tarea. -> W3C y WHATWG crear protocolos a seguir.
+-> Es importante seguir estos estandars, ya que, afetan de manera direta el desarrollo y accesibilidad de nuestro sitio web. (internet nos baja la pagina y no se podra ver).
+Dominio -> Identificacion proveida por x empresa de hosting.
+
+-Una vez que compro el dominio por ejemplo en NIC.AR lo tengo que delegar. Delegar significa que el hosting(donde va a estar alojado) te da un link para que tu pagina
+se encuentre en la web cuando
+escriben el nombre.
+Compro el hosting y delego el link a NIC.AR para que me dirija hacia ahi.
+
+->Para ver mi HTML necesito un navegador. Tambien neecesito contar con un servidor.
+->www, permite la ... conjunta de archivos?
+
+Protocolo -> La regla en que se van a comunicar en internet.
+
+Servidor Web(computadora) -> Trabaja mediante una arquitectura cliente-servidor. El cliente envia informacion, pasa por el internet y termina en el servidor.
+-> Las empresas de hosting nos perimiten hacer esto.
+-> Agarra las peticiones y devuelve las respuestas.
+
+index.html -> Define la manera en la que vamos a utilizar el leguaje?
+
+Los sitios web, archvios web, se manejan bajo la estructura basica de HTML. Esta estructura es la forma default pro la cual se va aestructurar un sitio. Esta estructura 
+se escribe "html:5"
+
+->existen etuiquetas de autocierre, de apertura y clausura.
+	<!DOCTYPE> -> Etiqueta de autocierre.
+	<html lang> ="en" -> Etiqueta de apertura.
+	/html -> Etiqueta de clausura.
+	Las etiquetas tienen atributos.
+	Atributos -> Caracteristicas.
+	<lang ="en"> -> atributo = "de que se trata este atributo".
+	La etiqueta <head> tiene la meta data que le damos a los motores de busqueda.
+	<meta> -> Etiqueta de autocierre
+	<meta charset="UTF-8"> -> tiene la cantidad de caracteres que se van a utilizar.
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> -> nos hace compatible nuestro sitio a edge.
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> -> hace que la pagina se adapte a cualquier dispotivo.
+	<title> -> determina el nombre de nuestra WEB.
+	<body> -> contiene la informacion que ve el usuario.
+
+
+
+etiquetas
+
+<hNum> para titulos,
+<header> encabezado
+<nav> menu
+
+pagina es una pagina de varias paginas.
+Denominamos pagina web a una pagina de un solo HTML. 
+Aplicacion web es un sitio web con log in o interaccion con el usuario (base de datos, etc)
+
+<header>
+   <nav>
+       <ui> 
+         <li> lista desordenada
+
+<main>
+    <section>
+        <ol>
+          <li> lista ordenada
+          <strong>
+
+<footer>
+    <p>...
+
+
+<link> (para css) (dentro de la etiqueta head)
+-> atributo rel -> de relacion.
+-> atributo href -> hace referencia a un hipervinculo.
+por elemento/tag, por clase y por id.
+
+div -> caja
+<div class="div-container"> --> kebab-case.
+
+selector universal -> formatear los valores predeterminados por el buscador.
+
+margin
+padding
+height
+margin
+width
+border
+
+
+-----------
+clase 3
+linus torvald (creador de linux, de git y de github).
+
+git es una plataforma para trabajar en conjunto con otras personas.
+
+github
+
+-cada vez que iniciamos un proyecto debemos agregar con CTRL + SHIFT + Ñ
+
+-Con el comando "git init" , iniciamos el working directory. 
+-U significa untracked, todavia no trackeado.
+
+-Con el comando "git status" , podemos saber el estado de nuestros archivos
+
+-Con el comando "git add ." , subimos todo al staging area.
+
+github usuario
+NocetiFederico
+nfedericotomas@gmail.com
+f42459055
+
+copiar las lineas de la pagina de git y pegar en la terminal de visual studio (cambiando el main por el master).
+
+
+<header>
+	<nav>
+		a* = <a href=""> </a> (href = hipervinculo de referencia)
+		a* = <a href="" target="_blank"> </a>
+
+
+git init
+git status
+git add .
+creas el repo
+copias y pegas lo que dice en el git ( git branch -M master)
+
+
+FTP
+protocolo de transferencia de archivos.
+necesitas:
+-usuario
+-contraseña
+-puerto 21
+-link de la dns
+
+Empresa de hosting
+-Brinda alojamiento en su servidor. Este alojamiento nos permite almacenar informacion para que otros usuarios puedan acceder.
+
+Internet:
+Nos permite acceder a las diferentes paginas mediante un protocolo.
+
+
+FTP y empresa hosting
+htdocs donde colocamos todo lo de nuestro sitio.
+Subdomains: elementos de nuestro sitio.
+---
+<video controls (hace que tengamos control del video) src ="ubicacion"> </video> (formato ogg es mejor que mp4)
+
+<audio src ="ubicacion" controls loop muted> </audio>
+
+<audio controls loop muted>
+<source src ="ubicacion.ogg">
+<source src ="ubicacion.mp3">
+</audio>
+
+tablas:
+
+<table>
+
+</table>
+
+
+
+

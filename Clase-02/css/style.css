@@ -1,0 +1,57 @@
+/* Selector Universal */
+*{ 
+    margin: 1px;
+    padding: 3px;
+}
+
+
+
+body{
+    /* propiedad - - valor */
+    background-color: rgb(155, 210, 212);
+    color: black;
+    
+}
+
+/* Estilos de la seccion principal */
+
+.div-container{
+    background-color: rgb(147, 255, 159);
+    /* height: 260px; */
+    padding: 10px;
+    display: flex ;
+    /* align-items: center; */
+    border-radius: 10px;
+    justify-content: space-between; 
+}
+
+.div-hijo{
+    background-color: rgb(221, 255, 225);
+    /* height: 50px; */
+    margin: 5px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+header{
+    background-color: rgb(191, 222, 223);
+    border-radius: 20px;
+
+}
+main{
+    background-color: rgb(191, 222, 223);
+    border-radius: 20px;
+
+}
+
+img{
+    border-radius: 35px;
+}
+
+.div-container > .div-hijo > p{
+    color: red;
+    font-size: large;
+}
