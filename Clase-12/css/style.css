@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background-properties{
+
+    height: 500px;
+    width: 100%;
+    background-color: #f1f1f1;
+    background-image: url(../media/wp1995167-bill-cipher-wallpapers.jpg);
+    /* evitamos que al img se repita */
+    background-repeat: no-repeat;
+    /* que cubra 100% */
+    background-size: cover;
+    /* posicion centrada */
+    background-position: center;
+    /* background-attachment: fixed; */
+
+}
+
+h1{
+
+    text-align: center;
+    color: white;
+
+}
+
+.border-properties{
+
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.border-properties:hover{
+
+    background-color: aquamarine;
+
+}
+
+.box-shadow-properties{
+
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.5);
+    text-align: center;
+
+}
+
+.box-shadow-properties:hover{
+
+    background-color: rgb(127, 255, 155);
+    box-shadow: 0px 0px 10px rgb(65, 131, 80);
+
+}
+
+.text-shadow-properties{
+
+    margin: 10px;
+    padding: 20px;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    font-size: xx-large;
+    transition: text-shadow 0.5s, filter 0.5s;
+    animation: hover-animation 2s infinite;
+
+}
+
+.text-shadow-properties:hover{
+
+    text-shadow: 2px 2px 4px red;
+    filter: blur(2px);
+
+}
+
+@keyframes hover-animation {
+    
+    0%{
+        text-shadow: 2px 2px 4px #000000 ;
+        filter: blur(0px);
+    }
+    50%{
+        text-shadow: 2px 2px 4px red ;
+        filter: blur(0px);
+    }
+    100%{
+        text-shadow: 2px 2px 4px #000000 ;
+        filter: blur(0px);
+
+    }
+
+}
+
+
+

@@ -88,6 +88,12 @@ h1{
     
 }
 
+.objeto:hover{
+
+    border-color: red;
+    border-width: 5px;
+}
+
 .ambito{
 
     background-color:rgba(0, 255, 21, 0.452);
@@ -102,6 +108,11 @@ h1{
     flex-direction: column;
     flex-wrap: wrap;
 
+}
+
+.ambito:hover{
+    border-color: red;
+    border-width: 5px;
 }
 
 .proposito{
@@ -120,6 +131,11 @@ h1{
 
 }
 
+.proposito:hover{
+    border-color: red;
+    border-width: 5px;
+}
+
 .valoressefin{
 
     background-color:rgba(0, 255, 21, 0.452);
@@ -135,6 +151,11 @@ h1{
     flex-wrap: wrap;
 
 }   
+
+.valoressefin:hover{
+    border-color: red;
+    border-width: 5px;
+}
 
 .principios{
 
@@ -152,6 +173,11 @@ h1{
 
 }
 
+.principios:hover{
+    border-color: red;
+    border-width: 5px;
+}
+
 h2{
 
     background-color: greenyellow;
@@ -164,13 +190,14 @@ h2{
 
 .productos{
 
-    background-color: rgb(0, 71, 6);
+    background-color: rgb(83, 109, 94);
     padding: 8px;
     flex-wrap: wrap;
     margin-top: 30px;
+    padding: 25px;
+    display: flex;
 
 }
-
 
 footer{
     display: flex;
@@ -181,26 +208,72 @@ footer{
 
 }
 
-footer > a{
+.logo{
 
-    background-color: greenyellow;
-    color: black;
-    border-radius: 10px;
-    padding: 5px;
+    display: flex;
+    align-items: flex-end;
+    margin-right: 225px;
+    flex-wrap: wrap;
 
 }
 
-footer > a:hover{
+h5{
+
+    color: rgb(255, 255, 255);;
+    font-family: 'Dancing Script', cursive;
+    font-size: 17px;
+
+}
+
+.logo > p{
+
+    color: white;
+
+}
+
+.informacion{
+
+    color: white;
+    margin-right: 300px;
+}
+
+.informacion > p{
+
+    font-size: larger;
+    flex-wrap: wrap;
+
+}
+.informacion > a{
+
+    color: white;
+    border-radius: 10px;
+    margin: 1px;
+
+}
+
+.informacion > a:hover{
+
     text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-weight: bolder;
+    color: greenyellow;
+
 }
 
-footer > img{
+.datos-admin{
 
-    border-radius: 10px;
-    width: 200px;
-    height: 200px;
+    color: white;
+    flex-wrap: wrap;
+
+}
+
+.titulo{
+
+    font-size: larger;
+
+}
+
+.datos-admin > p{
+
+    color: white;
 
 }
 

@@ -99,13 +99,14 @@ h1{
 
 .productos{
 
-    background-color: rgb(0, 71, 6);
+    background-color: rgb(83, 109, 94);
     padding: 8px;
     flex-wrap: wrap;
     margin-top: 30px;
+    padding: 25px;
+    display: flex;
 
 }
-
 
 footer{
     display: flex;
@@ -116,25 +117,72 @@ footer{
 
 }
 
-footer > a{
+.logo{
 
-    background-color: greenyellow;
-    color: black;
-    border-radius: 10px;
-    padding: 5px;
+    display: flex;
+    align-items: flex-end;
+    margin-right: 225px;
+    flex-wrap: wrap;
 
 }
 
-footer > a:hover{
+h5{
+
+    color: rgb(255, 255, 255);;
+    font-family: 'Dancing Script', cursive;
+    font-size: 17px;
+
+}
+
+.logo > p{
+
+    color: white;
+
+}
+
+.informacion{
+
+    color: white;
+    margin-right: 300px;
+}
+
+.informacion > p{
+
+    font-size: larger;
+    flex-wrap: wrap;
+
+}
+.informacion > a{
+
+    color: white;
+    border-radius: 10px;
+    margin: 1px;
+
+}
+
+.informacion > a:hover{
+
     text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-weight: bolder;
+    color: greenyellow;
+
 }
 
-footer > img{
-    border-radius: 10px;
-    width: 200px;
-    height: 200px;
+.datos-admin{
+
+    color: white;
+    flex-wrap: wrap;
+
+}
+
+.titulo{
+
+    font-size: larger;
+
+}
+
+.datos-admin > p{
+
+    color: white;
 
 }
 
